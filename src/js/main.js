@@ -17,9 +17,11 @@ burger.addEventListener("click", () => {
 
 const swiper = new Swiper(".work__flex", {
   direction: "horizontal",
-  slidesPerView: 4,
   spaceBetween: 22,
   breakpoints: {
+    1920: {
+      slidesPerView: 4,
+    },
     768: {
       slidesPerView: 2,
     },
@@ -37,6 +39,9 @@ const swiperInstagram = new Swiper(".instagram", {
   slidesPerView: 3,
   spaceBetween: 22,
   breakpoints: {
+    1920: {
+      slidesPerView: 4,
+    },
     768: {
       slidesPerView: 2,
     },
