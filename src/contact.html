@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('html/head.html',{ "title": "Contact" })
+  <body>
+    @@include('html/header.html')
+    <main>
+      <section>
+        <div class="container">
+          <div class="contact">
+            <div class="contact__item">
+                <div class="section__title">
+                    <h2>Як можу вам допомогти? </h2>
+                    <p>Заповніть форму, або скористайтесь конткатами нижче </p>
+                </div>
+                <ul>
+                    <li>
+                        <img src="@img/phone.svg" alt="">
+                        <a href="tel:+380979333444" target="_blank">+380 97 93 33 444</a>
+                    </li>
+                    <li>
+                        <img src="@img/mail.svg" alt="">
+                        <a href="mailto:art@garmatyuk.studio">art@garmatyuk.studio</a>
+                    </li>
+                    <li>
+                        <img src="@img/instagram.svg" alt="">
+                        <a href="">garmatyuk.studio</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="contact__item">
+                <div class="contact__form">
+                    <form action="">
+                        <input type="text" placeholder="Ім’я">
+                        <input type="email" placeholder="Email">
+                        <select name="" id="">
+                            <option value="Тема">Тема</option>
+                        </select>
+                        <textarea name="" id="" placeholder="Повідомлення"></textarea>
+                        <button type="submit" class="btn"><span>Надіслати</span></button>
+                    </form>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    @@include('html/footer.html')
+    <script src="js/main.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('html/head.html',{ "title": "Work" })
+  <body>
+    @@include('html/header.html')
+    <main>
+      <section>
+        <div class="container">
+          <h1>Роботи</h1>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="work__filter">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide active" data-filter="Всі">Всі</li>
+              <li class="swiper-slide" data-filter="Барельєф">Барельєф</li>
+              <li class="swiper-slide" data-filter="Скульптура">Скульптура</li>
+              <li class="swiper-slide" data-filter="Декор">Декор</li>
+              <li class="swiper-slide" data-filter="Картини">Картини</li>
+              <li class="swiper-slide" data-filter="Мастер макет">
+                Мастер макет
+              </li>
+              <li class="swiper-slide" data-filter="Копії історичних статуеток">
+                Копії історичних статуеток
+              </li>
+              <li class="swiper-slide" data-filter="Настійний розпис">
+                Настійний розпис
+              </li>
+            </ul>
+          </div>
+          <div class="work__flex">
+            <div class="work__item" data-filter="Барельєф">
+              <div class="work__img">
+                <img src="@img/work1.jpg" alt="" />
+                <div class="work__info">
+                  <span>2021</span>
+                  <a href="./post.html">Весняна рапсодія</a>
+                  <p>Барельєф</p>
+                </div>
+              </div>
+            </div>
+            <div class="work__item" data-filter="Скульптура">
+              <div class="work__img">
+                <img src="@img/work2.jpg" alt="" />
+                <div class="work__info">
+                  <span>2021</span>
+                  <a href="./post.html">Весняна рапсодія</a>
+                  <p>Барельєф</p>
+                </div>
+              </div>
+            </div>
+            <div class="work__item" data-filter="Барельєф">
+              <div class="work__img">
+                <img src="@img/work3.jpg" alt="" />
+                <div class="work__info">
+                  <span>2021</span>
+                  <a href="./post.html">Весняна рапсодія</a>
+                  <p>Барельєф</p>
+                </div>
+              </div>
+            </div>
+            <div class="work__item" data-filter="Картини">
+              <div class="work__img">
+                <img src="@img/work4.jpg" alt="" />
+                <div class="work__info">
+                  <span>2021</span>
+                  <a href="./post.html">Весняна рапсодія</a>
+                  <p>Барельєф</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    @@include('html/footer.html')
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
